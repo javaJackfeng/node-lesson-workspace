@@ -1,0 +1,23 @@
+{
+  "name": "http-chapter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "http-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stop": "pm2 stop http-static.js",
+    "restart": "pm2 restart http-static.js",
+    "start1": "nodemon http-static.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mime": "^3.0.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "nodemon": "^3.0.1",
+    "pm2": "^5.3.0"
+  }
+}
